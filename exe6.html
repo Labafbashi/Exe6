@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="Style.css" />
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -7,36 +8,17 @@
       content="width=device-width, initial-scale=1 text/html"
     />
 
-    <title>New Movie:</title>
+    <title>New Movie</title>
     <link rel="icon" type="image/x-icon" href="/src/img/webIcon.jpg" />
   </head>
   <body>
-    <h1 align="center">New Movie</h1>
-    <table width="100%" border="1">
+    <h1>New Movie</h1>
+    <table>
       <thead>
-        <h1 align="center">S L U M B E R L A N D</h1>
+        <h2>S L U M B E R L A N D</h2>
       </thead>
       <tr>
-        <td width="50%">
-          <div><b>Director: </b> Francis Lawrence</div>
-          <div><b>Writers: </b> David Guion, Michael Handelman</div>
-          <div><b>Presented by: </b> Netflix</div>
-          <div>
-            <b>Stars: </b>
-            <a href="https://www.imdb.com/name/nm0597388/?ref_=tt_ov_st"> Jason Momoa </a> ,
-            <a href="https://www.imdb.com/name/nm10146989/?ref_=tt_ov_st"> Marlow Barkley </a> , 
-            <a href="https://www.imdb.com/name/nm1483369/?ref_=tt_ov_st"> Chris O'Dowd </a>
-          </div>
-          <div><b>Story type: </b> Adventure, Comedy, Family</div>
-          <div>
-            <b>Summery: </b><br />
-            A young girl discovers a secret map to the dreamworld of
-            Slumberland, and with the help of an eccentric outlaw, she traverses
-            dreams and flees nightmares, with the hope that she will be able to
-            see her late father again.
-          </div>
-        </td>
-        <td width="50%">
+        <td>
           <iframe
             width="885"
             height="498"
@@ -47,13 +29,56 @@
             allowfullscreen
           ></iframe>
         </td>
+        <td>
+          <div class="StoryTypeAlign">
+            <div class="StoryType">
+              <img
+                class="Image"
+                src="./src/img/Adventure.png"
+                alt="Adventure"
+              />
+            </div>
+            <div class="StoryType">
+              <img class="Image" src="./src/img/Comedy.png" alt="Comedy" />
+            </div>
+            <div class="StoryType">
+              <img class="Image" src="./src/img/Family.png" alt="Family" />
+            </div>
+          </div>
+          <div><b>Director: </b> Francis Lawrence</div>
+          <div><b>Writers: </b> David Guion, Michael Handelman</div>
+          <div><b>Presented by: </b> Netflix</div>
+          <div>
+            <b>Stars: </b>
+            <a href="https://www.imdb.com/name/nm0597388/?ref_=tt_ov_st">
+              Jason Momoa
+            </a>
+            <a href="https://www.imdb.com/name/nm10146989/?ref_=tt_ov_st">
+              Marlow Barkley
+            </a>
+            <a href="https://www.imdb.com/name/nm1483369/?ref_=tt_ov_st">
+              Chris O'Dowd
+            </a>
+          </div>
+          <div>
+            <b>Summery: </b><br />
+            A young girl discovers a secret map to the dreamworld of
+            Slumberland, and with the help of an eccentric outlaw, she traverses
+            dreams and flees nightmares, with the hope that she will be able to
+            see her late father again.
+          </div>
+        </td>
       </tr>
     </table>
   </body>
   <footer align="center">
     <div>
-        <p>Powered by : Meysam Labafbashi</p>
-        <p><a href = "mailto: paramont@gmail.com">Send Email</a></p>
+      <p>
+        Powered by : Meysam Labafbashi
+        <a href="mailto: paramont@gmail.com" class="Email">
+          <img src="./src/img/Email.png" alt="Contact me" class="Email" />
+        </a>
+      </p>
     </div>
   </footer>
 </html>
